@@ -1,10 +1,3 @@
-# # Import the datetime class from the datetime module.
-# import datetime as dt
-# # Use the now() attribute on the datetime class to get the present time.
-# now = dt.datetime.now()
-# # Print the present time.
-# print("The time right now is ", now)
-
 # Add dependencies
 
 import csv
@@ -23,6 +16,6 @@ with open(file_to_load) as election_data:
 # To do: read and analyze the data here.
      file_reader = csv.reader(election_data)
 
-     # Print each row in the CSV file.
-for row in file_reader:
-        print(row)
+     # Read and print the header row.
+     headers = next(file_reader)
+     print(headers)
