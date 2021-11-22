@@ -45,3 +45,13 @@ The analysis of the election shows that:
 ![Election](Resources/election_results.png)
 
 ## Election-Audit Summary
+Based on the information provided by the script, it is possible to expand the Election Audit by including voter turnout and considering county with candidates. 
+It gives us an insight to predict election performance allowing us to manage resources if the demographics are hard to rich or the turnout is low. 
+
+It is important to customize the script to get on-demand analysis for the following years. 
+
+The customization suggested by adjusting the script to get the turnout results by county is a way which minor modify to the code could reveal critical data. For instance, we could include an if-statement to the code by counting the vote percentage of each  candidate.  This kind of Decision Statement reflects how the code runs calculation and all the inputs are based on the data file.  
+
+Let’s pretend it is a federal election, we could apply this script and switch the county to states. 
+
+ In summary, the script stablished to perform the Election Audit consist of relevant data to guide the board.
