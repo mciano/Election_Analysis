@@ -55,3 +55,4 @@ The customization suggested by adjusting the script to get the turnout results b
 Let’s pretend it is a federal election, we could apply this script and switch the county to states. 
 
  In summary, the script stablished to perform the Election Audit consist of relevant data to guide the board.
+ ##
